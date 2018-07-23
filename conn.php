@@ -24,6 +24,10 @@ if(mysqli_connect_error()){
   echo "connected succeed";
 }
 $sql = "select * from students";
+//find a way to to display the result into
+// two ways to to do so use foreach function 
+//or use json format which is much more easy way to do so
+
 
 $result = $mysqli->query($sql);
 
